@@ -1,0 +1,17 @@
+# Ignore R/RStudio files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Ignore data folder (raw data)
+data/
+
+# Ignore output artifacts
+output/
+*.pdf
+*.pptx
+
+# Ignore temporary or system files
+.DS_Store
+Thumbs.db
