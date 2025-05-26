@@ -4,19 +4,17 @@
 .Rproj.user/
 *.Rproj
 
-# Ignore data folder contents but keep the README
+# Ignore CSV files inside data folder, but allow the folder and README
 data/*
 !data/README.txt
 
-# Ignore derived/output artifacts
-output/
-*.pdf
+# Ignore PowerPoint files but allow PDFs
 *.pptx
 
-# Exception: allow final report and presentation
-!report/museum_financial_analysis_report.pdf
-!presentation/museum_presentation.pdf
+# Allow these specific PDFs
+!report/museum_analysis_report.pdf
+!presentation/museum_financial_analysis_presentation.pdf
 
-# Ignore temporary/system files
+# Ignore temporary or system files
 .DS_Store
 Thumbs.db
